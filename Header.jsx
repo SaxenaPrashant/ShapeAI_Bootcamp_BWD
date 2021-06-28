@@ -1,12 +1,11 @@
 import React from "react";
 
 function Header() {
-    return (
-        <Header>
-            <h1>ShapeAI Bootcamp</h1>
-        </Header>
-    );
+  return (
+    <div className="header">
+      <h1 className="h1">ShapeAI Bootcamp</h1>
+    </div>
+  );
 }
 
 export default Header;
-
