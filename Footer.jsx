@@ -1,11 +1,11 @@
 import React from "react";
 
 function Footer() {
-    return (
-        <Footer>
-            <p>Copy right by ShapeAI @ {new Date().getDate()}</p>
-        </Footer>
-    );
+  return (
+    <div className="footer">
+      <p>Copy right by ShapeAI @ {new Date().getFullYear()}</p>
+    </div>
+  );
 }
 
 export default Footer;
